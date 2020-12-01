@@ -1,3 +1,13 @@
 body {
   background: #F5F7F9;
 }
+#addons {
+  padding: 48px;
+}
+.addons_content {
+  display: flex;
+  flex-direction: row;
+}
+.addons_list {
+  font-size: 1.4rem;
+}
