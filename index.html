@@ -1,41 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/site.css">
-    <title>Document</title>
-</head>
-<body>
-<div id="addons">
-    <h1 class="addons_h1">Add Options to Your Trip</h1>
-        <div class="addons_content">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/site.css">
+      <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"></script>
+      <script src="../knockout-3.5.1.js"></script>
+      <title>Document</title>
+   </head>
+   <body>
+      <div id="addons">
+         <h1 class="addons_h1">Add Options to Your Trip</h1>
+         <div class="addons_content">
             <div class="addons_wrapper">
-            <div class="addons_img"></div>
-            <div class="addons_content_left">
-                
-                <h2 class="">Flight flex option</h2>
-                    <ul class="addons_list">
-                        <li>Available for all non-refundable fares.</li>
-                        <li>Cancel and refund up to 24 hours prior to dpearture.</li>
-                        <li>Add to reservations up to 1 day after booking.</li>
-                        <li>Refund onlin, with no claims or forms.</li>
-                        <li>View details
-                            <ul>
-                                <li>Details</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                    <div class="addons_content_right">
-                        <p class="addons_price">$34.50</p>
-                        <p class="addons_details">per passenger, tax inclusive</p>
-                        <button class="addons_btn">Make My Booking Flexible</button>
+               <div class="addons_img"></div>
+               <div class="addons_content_left">
+                  <h2 class="">Flight flex option</h2>
+                  <ul class="addons_list">
+                     <li>Available for all non-refundable fares.</li>
+                     <li>Cancel and refund up to 24 hours prior to dpearture.</li>
+                     <li>Add to reservations up to 1 day after booking.</li>
+                     <li>Refund onlin, with no claims or forms.</li>
+                  </ul>
+                  <div class="g-dropdown">
+                    <div class="g-dropdown__heading">
+                        <a href="" >View Details</a>
+    
+                    <div class="g-dropdown__button g-collapsible__button" tabindex="0"></div>
+                    <div class="g-dropdown__icon g-collapsible__icon">
+                    <span class="f-icon-Chevron g-caret__dropdown-arrow"></span>
+                        </div>
                     </div>
-                </div>
-            
+    
+                    <div class="g-dropdown__body g-collapsible__content">
+                    <p>details</p>
         </div>
     </div>
-</div>
-</body>
+                  
+               </div>
+               <div class="addons_content_right">
+                  <div class="addons_upper">
+                     <p class="addons_price">$34.50</p>
+                     <p class="addons_details">per passenger, tax inclusive</p>
+                  </div>
+                  <button class="addons_btn">Make My Booking Flexible</button>
+               </div>
+            </div>
+        </div>
+            <div class="addons_content">
+            <div class="addons_wrapper">
+               <div class="addons_img"></div>
+               <div class="addons_content_left">
+                  <h2 class="">Full refund option</h2>
+                  <ul class="addons_list">
+                     <li>Get a full travel refund, even on a non-refundable fare.</li>
+                     <li>Cancel for any reason, up to 24 hours prior to departure.</li>
+                     <li>Option available at time of booking or within 24 hours online.</li>
+                     <li>Get your refund online. No claim or form required.</li>
+                     <li>Additional details in <span>
+                     <a href="#" >Terms & Conditions</a></li>
+                  </ul>
+                  
+                  
+               </div>
+               <div class="addons_content_right">
+                  <div class="addons_upper">
+                     <p class="addons_price">$34.50</p>
+                     <p class="addons_details">per passenger, tax inclusive</p>
+                  </div>
+                  <button class="addons_btn">Make My Booking Flexible</button>
+                  
+               </div>
+            </div>
+            
+            <div class="g-information__wrapper">
+                <hr />
+                <div class="addons_padding">
+                <p>Terms & Conditions</p>
+                <p><b>Eligibility</b>- the Full Refund Option entitles customers to recieve a full refund for their cooking upon cancellation. The fee is charged per passenger, per booking and most be purchaed for all passengers on the reservation at the same time. To be eligible for a refund, the booking most be cancelled a minimum of one(1) day before scheduled departure time fo the first leg of the departing journey.</p>
+                <p><b>Refund</b>- the refund is issued in the original form of payment and includes airfare, add-ons and all taxes and surcharges. The Full Refund Option fee itself is a non-refundable outside of the 24 hour window after purchafe. For bookings cancelled online, the refund is processed automatically with some exceptions. To request a refund for a booking that you cancelled that is not eligible for an online refund, please complete the <a href="">online Refund Request</a>Form or contact our Call Centre at 1-888-619-8622. For details, visit our <a href="">Optional Services and Fees page.</a></p>
+            </div>
+        </div>
+         </div>
+        </div>
+      </div>
+      </div>
+      <script src="script.js"></script>
+   </body>
 </html>
