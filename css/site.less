@@ -12,6 +12,7 @@ body {
   flex-wrap: nowrap;
   flex-direction: row;
   padding: 48px;
+  max-width: 1140px;
 }
 
 .addons_padding{
@@ -41,26 +42,25 @@ body {
 }
 
 .addons_details{
-  align-self: flex-end;
+  text-align: right;
   font-size: 14px;
+  flex-grow: 1;
 }
 
 .addons_price{
-  align-self: flex-end;
+  text-align: right;
   font-size: 32px;
   font-weight: 200;
-  margin: 0;
+  margin-bottom: 0;
 }
 
-.addons_upper{
+.addons_content_right{
   display: flex;
-  flex-direction: column;
-  padding-top: 0.83em;
+  flex-flow: column nowrap;
 }
 
 .addons_btn{
-  // margin-top: 30px;
-  // margin-bottom: auto;
+  margin-top: auto;
   font-size: 16px;
   background: #7fA4C1;
   color: white;
@@ -75,10 +75,6 @@ body {
 
 .addons_btn:hover{
   box-shadow: 6px;
-}
-
-.addons_temp_arrrow{
-  font-size: 16px;
 }
 
 .addons_dropdown{
