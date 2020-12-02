@@ -26,9 +26,6 @@ body {
   padding: 24px 16px;
   max-width: 1140px;
 }
-.addons_padding {
-  padding: 48px;
-}
 .addons_content {
   border: 1px solid grey;
   border-radius: 4px;
@@ -103,7 +100,7 @@ body {
   color: #002D53;
 }
 hr {
-  width: 93%;
+  width: 100%;
 }
 @media (max-width: 960px) {
   .addons_wrapper {
