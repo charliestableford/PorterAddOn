@@ -19,14 +19,16 @@
                <div class="addons_img"><img src="" class="addons_img" alt="Alt text" /></div>
                <div class="addons_content_left">
                   <h2 class="addons_h2">Flight flex option</h2>
-                  <ul class="addons_list" role="list" data-bind="foreach: listitem">
-                     <li role="listitem" data-bind="text=$data"></li>
+                  <ul class="addons_list" role="list" data-bind="foreach: listItemOne">
+                     <li role="listitem">
+                        <span data-bind="text:$data"></span>
+                     </li>
                   </ul>
                   <div class="g-dropdown">
                     <div class="g-dropdown__heading">
                         
                     <div class="g-dropdown__button g-collapsible__button" tabindex="0"></div>
-                    <div class="g-dropdown__icon g-collapsible__icon"><a href="#" class="addons_dropdown" data-bind="click: showDropDown">View Details</a>
+                    <div class="g-dropdown__icon g-collapsible__icon"><a href="#" class="addons_dropdown" data-bind="">View Details</a>
                     <span class="f-icon-Chevron g-caret__dropdown-arrow"></span>
                         </div>
                     </div>
@@ -50,13 +52,8 @@
                <div class="addons_img"><img src="" class="addons_img" alt="Alt text" /></div>
                <div class="addons_content_left">
                   <h2 class="addons_h2">Full refund option</h2>
-                  <ul class="addons_list" role="list">
-                     <li role="listitem">Get a full travel refund, even on a non-refundable fare.</li>
-                     <li role="listitem">Cancel for any reason, up to 24 hours prior to departure.</li>
-                     <li role="listitem">Option available at time of booking or within 24 hours online.</li>
-                     <li role="listitem">Get your refund online. No claim or form required.</li>
-                     <li role="listitem">Additional details in <span>
-                     <a href="#" aria-label="Open" tabindex="0">Terms & Conditions</a></li>
+                  <ul class="addons_list" role="list" data-bind="foreach: listItemTwo">
+                     <li role="listitem"><span data-bind="text: $data"></span></li>
                   </ul>
                </div>
                <div class="addons_content_right">
