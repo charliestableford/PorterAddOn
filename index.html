@@ -19,17 +19,14 @@
                <div class="addons_img"><img src="" class="addons_img" alt="Alt text" /></div>
                <div class="addons_content_left">
                   <h2 class="addons_h2">Flight flex option</h2>
-                  <ul class="addons_list" role="list">
-                     <li role="listitem">Available for all non-refundable fares.</li>
-                     <li role="listitem">Cancel and refund up to 24 hours prior to departure.</li>
-                     <li role="listitem">Add to reservations up to 1 day after booking.</li>
-                     <li role="listitem">Refund online, with no claims or forms.</li>
+                  <ul class="addons_list" role="list" data-bind="foreach: listitem">
+                     <li role="listitem" data-bind="text=$data"></li>
                   </ul>
                   <div class="g-dropdown">
                     <div class="g-dropdown__heading">
                         
                     <div class="g-dropdown__button g-collapsible__button" tabindex="0"></div>
-                    <div class="g-dropdown__icon g-collapsible__icon"><a href="#" class="addons_dropdown" data-bind="">View Details</a>
+                    <div class="g-dropdown__icon g-collapsible__icon"><a href="#" class="addons_dropdown" data-bind="click: showDropDown">View Details</a>
                     <span class="f-icon-Chevron g-caret__dropdown-arrow"></span>
                         </div>
                     </div>
