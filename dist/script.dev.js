@@ -1,6 +1,7 @@
 "use strict";
 
 $(function () {
-  var viewModel = {};
+  var viewModel = function viewModel() {};
+
   ko.applyBindings(viewModel);
 });
