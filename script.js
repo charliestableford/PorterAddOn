@@ -34,3 +34,8 @@ ko.applyBindings(viewModel);
 // })
 
 //terms and conditions
+$(function(){
+    var viewModel = {
+        showTerms: ko.observable(false)
+    }
+})
