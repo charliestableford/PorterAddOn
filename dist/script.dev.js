@@ -18,7 +18,9 @@ $(function () {
 
 $(function () {
   var viewModel = {
-    flexible: function flexible(formElement) {}
+    flexOne: function flexOne(formElement) {},
+    flexTwo: function flexTwo(formElement) {},
+    flexThree: function flexThree(formElement) {}
   };
   ko.applyBindings(viewModel);
 });

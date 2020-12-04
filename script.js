@@ -19,9 +19,16 @@ ko.applyBindings(viewModel);
 //buttons
 $(function(){
     var viewModel = {
-        flexible: function(formElement){
+        flexOne: function(formElement){
 
-        }
+        }, 
+        flexTwo: function(formElement){
+
+        }, 
+        flexThree: function(formElement){
+
+        }, 
+
     }
     ko.applyBindings(viewModel);
 })
