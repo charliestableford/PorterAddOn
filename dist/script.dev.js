@@ -29,7 +29,7 @@ console.log('in'); // $(function(){
 //terms and conditions
 
 $(function () {
-  var viewModel = new function VM() {
+  var viewModel = new function ViewModel() {
     this.shouldShow = ko.observable(false);
 
     this.checkIfShow = function () {
@@ -37,7 +37,10 @@ $(function () {
     };
   }();
   ko.applyBindings(viewModel);
-  $('.toggle').on('click', function () {
+  $('#toggle').on('click', function () {
+    viewModel.shouldShow(!viewModel.shouldShow());
+  });
+  $('#toggleTwo').on('click', function () {
     viewModel.shouldShow(!viewModel.shouldShow());
   });
 });
