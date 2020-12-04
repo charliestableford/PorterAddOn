@@ -11,7 +11,7 @@ console.log('in'); // $(function(){
 $(function () {
   var viewModel1 = {
     listItemOne: ko.observableArray(['Available for all non-refundable fares.', 'Cancel and refund up to 24 hours prior to departure.', 'Add to reservations up to 1 day after booking.', 'Refund online, with no claims or forms.']),
-    listItemTwo: ko.observableArray(['Get a full travel refund, even on a non-refundable fare.', 'Cancel for any reason, up to 24 hours prior to departure.', 'Option available at time of booking or within 24 hours online.', 'Get your refund online. No claim or form required.', 'Additional details in <a href="#" aria-label="Open" tabindex="0">Terms & Conditions</a>'])
+    listItemTwo: ko.observableArray(['Get a full travel refund, even on a non-refundable fare.', 'Cancel for any reason, up to 24 hours prior to departure.', 'Option available at time of booking or within 24 hours online.', 'Get your refund online. No claim or form required.', ''])
   }; // ko.cleanNode(document.getElementById('viewModel1'));
 
   ko.applyBindings(viewModel1, document.getElementById('viewModel1')); // ko.cleanNode($element[0]);
