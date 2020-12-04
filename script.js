@@ -45,7 +45,7 @@ var viewModel = new function VM() {
   
   ko.applyBindings(viewModel);
   
-  $('#toggle').on('click', function() {
+  $('.toggle').on('click', function() {
     viewModel.shouldShow(!viewModel.shouldShow());
   });
 })
