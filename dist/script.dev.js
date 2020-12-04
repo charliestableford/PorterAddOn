@@ -15,12 +15,15 @@ $(function () {
   };
   ko.applyBindings(viewModel);
 }); //buttons
-
-$(function () {
-  var viewModel = {
-    flexOne: function flexOne(formElement) {},
-    flexTwo: function flexTwo(formElement) {},
-    flexThree: function flexThree(formElement) {}
-  };
-  ko.applyBindings(viewModel);
-});
+// $(function(){
+//     var viewModel = {
+//         flexOne: function(formElement){
+//         }, 
+//         flexTwo: function(formElement){
+//         }, 
+//         flexThree: function(formElement){
+//         }, 
+//     }
+//     ko.applyBindings(viewModel);
+// })
+//terms and conditions

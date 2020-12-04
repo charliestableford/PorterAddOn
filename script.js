@@ -17,18 +17,20 @@ ko.applyBindings(viewModel);
 });
 
 //buttons
-$(function(){
-    var viewModel = {
-        flexOne: function(formElement){
+// $(function(){
+//     var viewModel = {
+//         flexOne: function(formElement){
 
-        }, 
-        flexTwo: function(formElement){
+//         }, 
+//         flexTwo: function(formElement){
 
-        }, 
-        flexThree: function(formElement){
+//         }, 
+//         flexThree: function(formElement){
 
-        }, 
+//         }, 
 
-    }
-    ko.applyBindings(viewModel);
-})
+//     }
+//     ko.applyBindings(viewModel);
+// })
+
+//terms and conditions
