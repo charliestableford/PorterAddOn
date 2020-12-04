@@ -32,4 +32,5 @@ $(function () {
   var viewModel = {
     showTerms: ko.observable(false)
   };
+  ko.applyBindings(viewModel);
 });
