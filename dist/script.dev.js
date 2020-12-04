@@ -36,7 +36,8 @@ $(function () {
       return this.shouldShow();
     };
   }();
-  ko.applyBindings(viewModel);
+  ko.applyBindings(viewModel); //this feels redundant? could I do an if/ifnot in here instead?
+
   $('#toggle').on('click', function () {
     viewModel.shouldShow(!viewModel.shouldShow());
   });
