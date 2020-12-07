@@ -44,7 +44,9 @@ console.log('in')
                     viewModel3.shouldShow(!viewModel3.shouldShow());
                   });
                 })
-        ko.applyBindings(viewModel1, viewmodel2, viewModel3);
+        ko.applyBindings(viewModel1, document.getElementById('viewModel1'));
+        ko.applyBindings(viewModel2, document.getElementById('viewModel2'));
+        ko.applyBindings(viewModel3, document.getElementById('viewModel3'));
     })
 
 //lists
