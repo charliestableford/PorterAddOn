@@ -21,6 +21,23 @@ console.log('in')
             listItemTwo: ko.observableArray(['Get a full travel refund, even on a non-refundable fare.','Cancel for any reason, up to 24 hours prior to departure.','Option available at time of booking or within 24 hours online.','Get your refund online. No claim or form required.', ''])
             
         }
+
+        var viewModel3 = function(){   
+        shouldShow = ko.observable(false);
+        checkIfShow = function() {
+            //is it visible
+            return this.shouldShow();
+        };
+             
+        $('#toggle').on('click', function() {
+        // if not showing then it will on toggle click
+        viewModel3.shouldShow(!viewModel3.shouldShow());
+        });
+        $('#toggleTwo').on('click', function() {
+        viewModel3.shouldShow(!viewModel3.shouldShow());
+        });
+    // }
+} 
         ko.applyBindings(viewModel)
     });
     
