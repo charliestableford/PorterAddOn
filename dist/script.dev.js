@@ -23,7 +23,7 @@ $(function () {
 
     checkIfShow = function checkIfShow() {
       //is it visible
-      return this.shouldShow();
+      return shouldShow();
     };
 
     $('#toggle').on('click', function () {

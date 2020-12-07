@@ -26,7 +26,7 @@ console.log('in')
         shouldShow = ko.observable(false);
         checkIfShow = function() {
             //is it visible
-            return this.shouldShow();
+            return shouldShow();
         };
              
         $('#toggle').on('click', function() {
