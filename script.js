@@ -22,7 +22,7 @@ console.log('in')
             
         }
 
-        var viewModel3 = function(){   
+        var viewModel3 = new function ViewModel(){   
         shouldShow = ko.observable(false);
         checkIfShow = function() {
             //is it visible
@@ -37,7 +37,7 @@ console.log('in')
         viewModel3.shouldShow(!viewModel3.shouldShow());
         });
     // }
-} 
+    } 
         ko.applyBindings(viewModel)
     });
     
